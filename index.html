@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>50 Design Styles · 设计风格画板预览</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif; background: #F5F5F5; color: #1A1A1A; padding: 24px; }
+.header { max-width: 2000px; margin: 0 auto 24px; }
+h1 { font-size: 28px; font-weight: 900; letter-spacing: -0.5px; }
+.sub { font-size: 13px; color: #888; margin-top: 6px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 16px; max-width: 2000px; margin: 0 auto; }
+.card { background: #FFF; border-radius: 12px; overflow: hidden; border: 1px solid #E8E8E8; transition: box-shadow 0.2s; }
+.card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+.card-inner { padding: 16px; }
+.card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.num { font-size: 11px; font-weight: 800; color: #CCC; }
+.type-tag { font-size: 10px; font-weight: 700; color: #999; background: #F0F0F0; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.name-cn { font-size: 18px; font-weight: 900; line-height: 1.3; margin-bottom: 2px; }
+.name-en { font-size: 12px; color: #AAA; margin-bottom: 8px; }
+.keywords { font-size: 11px; color: #666; line-height: 1.5; margin-bottom: 4px; }
+.best { font-size: 11px; color: #888; line-height: 1.5; margin-bottom: 8px; }
+.swatches { display: flex; gap: 6px; margin-bottom: 10px; }
+.swatch { width: 22px; height: 22px; border-radius: 5px; border: 1px solid rgba(0,0,0,0.08); }
+.preview { width: 100%; height: auto; border-radius: 6px; border: 1px solid #EEE; display: block; }
+</style>
+</head>
+<body>
+<div class="header">
+<h1>🎨 50 Design Styles · 设计风格画板聚合预览</h1>
+<p class="sub">同一内容（CSM Buddy 四场景流程图）× 50 种设计风格 · 中文名 + 英文名 + 色板 + 示例图</p>
+</div>
+<div class="grid">
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#1</span>
+          <span class="type-tag">Warm</span>
+        </div>
+        <div class="name-cn">杏色弧线</div>
+        <div class="name-en">Apricot Arc</div>
+        <div class="keywords">🏷 warm, retro, geometric, friendly</div>
+        <div class="best">🎯 Warm explainers, friendly process flows, onboarding boards</div>
+        <div class="swatches"><span class="swatch" style="background:#FDF5EC"></span><span class="swatch" style="background:#D4956A"></span><span class="swatch" style="background:#E8C8B0"></span></div>
+        <img class="preview" src="pngs/apricot-arc.png" alt="杏色弧线" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#2</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">牛油果压印</div>
+        <div class="name-en">Avocado Press</div>
+        <div class="keywords">🏷 bold duotone, punchy, editorial</div>
+        <div class="best">🎯 Bold single-idea boards, comparisons, editorial explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#F5F0E0"></span><span class="swatch" style="background:#3D6B35"></span><span class="swatch" style="background:#5B8C4E"></span></div>
+        <img class="preview" src="pngs/avocado-press.png" alt="牛油果压印" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#3</span>
+          <span class="type-tag">Playful</span>
+        </div>
+        <div class="name-cn">积木框</div>
+        <div class="name-en">BlockFrame</div>
+        <div class="keywords">🏷 maximalist, candy, playful, sticker book</div>
+        <div class="best">🎯 Creative boards, playful explainers, team collaboration</div>
+        <div class="swatches"><span class="swatch" style="background:#FFF8F0"></span><span class="swatch" style="background:#FF8A80"></span><span class="swatch" style="background:#82B1FF"></span><span class="swatch" style="background:#FFD740"></span><span class="swatch" style="background:#B388FF"></span></div>
+        <img class="preview" src="pngs/block-frame.png" alt="积木框" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#4</span>
+          <span class="type-tag">Loud</span>
+        </div>
+        <div class="name-cn">爆发面板</div>
+        <div class="name-en">Burst Panel</div>
+        <div class="keywords">🏷 loud, energetic, dashboard</div>
+        <div class="best">🎯 High-energy dashboards, event boards, launch explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#FAFAFA"></span><span class="swatch" style="background:#FF1744"></span><span class="swatch" style="background:#2979FF"></span><span class="swatch" style="background:#FFEA00"></span></div>
+        <img class="preview" src="pngs/burst-panel.png" alt="爆发面板" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#5</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">钴蓝绽放</div>
+        <div class="name-en">Cobalt Bloom</div>
+        <div class="keywords">🏷 oversized type, fashion editorial, confident</div>
+        <div class="best">🎯 Fashion editorial boards, bold brand explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#F8F4F0"></span><span class="swatch" style="background:#1A3A8A"></span><span class="swatch" style="background:#2563EB"></span></div>
+        <img class="preview" src="pngs/cobalt-bloom.png" alt="钴蓝绽放" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#6</span>
+          <span class="type-tag">Refined</span>
+        </div>
+        <div class="name-cn">钴蓝釉</div>
+        <div class="name-en">Cobalt Glaze</div>
+        <div class="keywords">🏷 refined, calm, ceramic blue and white</div>
+        <div class="best">🎯 Calm explainers, two-column comparisons, gentle process flows</div>
+        <div class="swatches"><span class="swatch" style="background:#ECECEC"></span><span class="swatch" style="background:#185DB7"></span><span class="swatch" style="background:#8E9179"></span></div>
+        <img class="preview" src="pngs/cobalt-glaze.png" alt="钴蓝釉" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#7</span>
+          <span class="type-tag">Playful</span>
+        </div>
+        <div class="name-cn">彩纸楔</div>
+        <div class="name-en">Confetti Wedge</div>
+        <div class="keywords">🏷 playful, breezy, celebratory pastel</div>
+        <div class="best">🎯 Celebration boards, team updates, playful product explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#FFF5F5"></span><span class="swatch" style="background:#FFB3BA"></span><span class="swatch" style="background:#BAFFC9"></span><span class="swatch" style="background:#BAE1FF"></span></div>
+        <img class="preview" src="pngs/confetti-wedge.png" alt="彩纸楔" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#8</span>
+          <span class="type-tag">Sporty</span>
+        </div>
+        <div class="name-cn">球场压力</div>
+        <div class="name-en">Court Press</div>
+        <div class="keywords">🏷 sporty, athletic, energetic clash</div>
+        <div class="best">🎯 Sports/competition boards, energetic team dashboards</div>
+        <div class="swatches"><span class="swatch" style="background:#F8F8F4"></span><span class="swatch" style="background:#FF3B00"></span><span class="swatch" style="background:#0047AB"></span></div>
+        <img class="preview" src="pngs/court-press.png" alt="球场压力" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#9</span>
+          <span class="type-tag">Loud</span>
+        </div>
+        <div class="name-cn">蜡笔堆</div>
+        <div class="name-en">Crayon Stack</div>
+        <div class="keywords">🏷 primary crayon brights, loud, fun</div>
+        <div class="best">🎯 Fun explainers, kids/education boards, team icebreakers</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFEF0"></span><span class="swatch" style="background:#FF0044"></span><span class="swatch" style="background:#0044FF"></span><span class="swatch" style="background:#FFCC00"></span></div>
+        <img class="preview" src="pngs/crayon-stack.png" alt="蜡笔堆" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#10</span>
+          <span class="type-tag">Calm</span>
+        </div>
+        <div class="name-cn">剪纸花</div>
+        <div class="name-en">Cut Bloom</div>
+        <div class="keywords">🏷 calm, warm, soft colour blocks</div>
+        <div class="best">🎯 Calm process explainers, wellness boards, gentle brand boards</div>
+        <div class="swatches"><span class="swatch" style="background:#FDF8F2"></span><span class="swatch" style="background:#C9A88C"></span><span class="swatch" style="background:#A8C9A8"></span></div>
+        <img class="preview" src="pngs/cut-bloom.png" alt="剪纸花" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#11</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">树林块</div>
+        <div class="name-en">Grove Block</div>
+        <div class="keywords">🏷 brand forward, flat, confident green</div>
+        <div class="best">🎯 Brand explainers, sustainability boards, green/eco boards</div>
+        <div class="swatches"><span class="swatch" style="background:#F5F8F0"></span><span class="swatch" style="background:#2D5A27"></span><span class="swatch" style="background:#4A8C3F"></span></div>
+        <img class="preview" src="pngs/grove-block.png" alt="树林块" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#12</span>
+          <span class="type-tag">Calm</span>
+        </div>
+        <div class="name-cn">玉镜</div>
+        <div class="name-en">Jade Lens</div>
+        <div class="keywords">🏷 calm, harmonious, minimal green</div>
+        <div class="best">🎯 Harmonious explainers, meditation/wellness boards, zen flows</div>
+        <div class="swatches"><span class="swatch" style="background:#F2F6F0"></span><span class="swatch" style="background:#7BAA8A"></span><span class="swatch" style="background:#5A8A6A"></span></div>
+        <img class="preview" src="pngs/jade-lens.png" alt="玉镜" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#13</span>
+          <span class="type-tag">Electric</span>
+        </div>
+        <div class="name-cn">石灰板</div>
+        <div class="name-en">Lime Slab</div>
+        <div class="keywords">🏷 electric, bold, modern SaaS</div>
+        <div class="best">🎯 Modern SaaS boards, tech explainers, bold product boards</div>
+        <div class="swatches"><span class="swatch" style="background:#FAFCF8"></span><span class="swatch" style="background:#32CD32"></span><span class="swatch" style="background:#1A1A2E"></span></div>
+        <img class="preview" src="pngs/lime-slab.png" alt="石灰板" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#14</span>
+          <span class="type-tag">Refined</span>
+        </div>
+        <div class="name-cn">亚麻切</div>
+        <div class="name-en">Linen Cut</div>
+        <div class="keywords">🏷 mid century modernist, tasteful, calm</div>
+        <div class="best">🎯 Tasteful editorial boards, refined brand explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#F8F4EC"></span><span class="swatch" style="background:#C4B8A8"></span><span class="swatch" style="background:#A89880"></span></div>
+        <img class="preview" src="pngs/linen-cut.png" alt="亚麻切" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#15</span>
+          <span class="type-tag">Playful</span>
+        </div>
+        <div class="name-cn">薄荷粗野</div>
+        <div class="name-en">Mint Brut</div>
+        <div class="keywords">🏷 candy, friendly, app like</div>
+        <div class="best">🎯 Friendly explainers, onboarding flows, app UI boards</div>
+        <div class="swatches"><span class="swatch" style="background:#D0FDE4"></span><span class="swatch" style="background:#F888C8"></span><span class="swatch" style="background:#70F0A8"></span><span class="swatch" style="background:#F0DE4E"></span></div>
+        <img class="preview" src="pngs/mint-brut.png" alt="薄荷粗野" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#16</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">新网格粗体</div>
+        <div class="name-en">Neo-Grid Bold</div>
+        <div class="keywords">🏷 editorial grid, bold, structured</div>
+        <div class="best">🎯 Structured editorial boards, bold grid explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#FCFAF8"></span><span class="swatch" style="background:#111111"></span><span class="swatch" style="background:#E0DCD4"></span></div>
+        <img class="preview" src="pngs/neo-grid-bold.png" alt="新网格粗体" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#17</span>
+          <span class="type-tag">Artful</span>
+        </div>
+        <div class="name-cn">蓝纸</div>
+        <div class="name-en">Papier Bleu</div>
+        <div class="keywords">🏷 Matisse calm, artful, airy</div>
+        <div class="best">🎯 Artful explainers, gallery/culture boards, airy brand boards</div>
+        <div class="swatches"><span class="swatch" style="background:#F0F0F8"></span><span class="swatch" style="background:#6B8FB8"></span><span class="swatch" style="background:#4A6A8A"></span></div>
+        <img class="preview" src="pngs/papier-bleu.png" alt="蓝纸" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#18</span>
+          <span class="type-tag">Sharp</span>
+        </div>
+        <div class="name-cn">原生网格</div>
+        <div class="name-en">Raw Grid</div>
+        <div class="keywords">🏷 system native, sharp, digital brutalism</div>
+        <div class="best">🎯 Developer tools, system architecture, technical dashboards</div>
+        <div class="swatches"><span class="swatch" style="background:#FAFAFA"></span><span class="swatch" style="background:#1A1A1A"></span><span class="swatch" style="background:#E0E0E0"></span></div>
+        <img class="preview" src="pngs/raw-grid.png" alt="原生网格" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#19</span>
+          <span class="type-tag">Refined</span>
+        </div>
+        <div class="name-cn">阅读室</div>
+        <div class="name-en">Reading Room</div>
+        <div class="keywords">🏷 quiet, literary, restrained, institutional</div>
+        <div class="best">🎯 Institutional explainers, academic boards, quiet editorial</div>
+        <div class="swatches"><span class="swatch" style="background:#F5F0E8"></span><span class="swatch" style="background:#8B7B6A"></span><span class="swatch" style="background:#6B5B4A"></span></div>
+        <img class="preview" src="pngs/reading-room.png" alt="阅读室" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#20</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">钴蓝潮</div>
+        <div class="name-en">Riptide Cobalt</div>
+        <div class="keywords">🏷 bold poster, low density, high impact</div>
+        <div class="best">🎯 Hero boards, brand posters, bold single-idea explainers</div>
+        <div class="swatches"><span class="swatch" style="background:#FDF0E0"></span><span class="swatch" style="background:#375DFE"></span><span class="swatch" style="background:#2741C0"></span></div>
+        <img class="preview" src="pngs/riptide-cobalt.png" alt="钴蓝潮" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#21</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">Riso粗野</div>
+        <div class="name-en">Riso Brut</div>
+        <div class="keywords">🏷 neo brutalist editorial, confident, designed</div>
+        <div class="best">🎯 Confident editorial boards, design-forward explainers (default)</div>
+        <div class="swatches"><span class="swatch" style="background:#FFF8F0"></span><span class="swatch" style="background:#FF6B35"></span><span class="swatch" style="background:#004E89"></span></div>
+        <img class="preview" src="pngs/riso-brut.png" alt="Riso粗野" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#22</span>
+          <span class="type-tag">Bold</span>
+        </div>
+        <div class="name-cn">鲑鱼印</div>
+        <div class="name-en">Salmon Stamp</div>
+        <div class="keywords">🏷 stamp and poster, bold, characterful</div>
+        <div class="best">🎯 Character-rich boards, poster-style explainers, bold brand</div>
+        <div class="swatches"><span class="swatch" style="background:#FFF5F0"></span><span class="swatch" style="background:#E8836B"></span><span class="swatch" style="background:#C85A4A"></span></div>
+        <img class="preview" src="pngs/salmon-stamp.png" alt="鲑鱼印" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#23</span>
+          <span class="type-tag">Loud</span>
+        </div>
+        <div class="name-cn">标本粗体</div>
+        <div class="name-en">Specimen Bold</div>
+        <div class="keywords">🏷 type specimen, graphic, loud</div>
+        <div class="best">🎯 Type-driven boards, loud graphic explainers, specimen sheets</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#000000"></span><span class="swatch" style="background:#FFDD00"></span></div>
+        <img class="preview" src="pngs/specimen-bold.png" alt="标本粗体" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#24</span>
+          <span class="type-tag">Playful</span>
+        </div>
+        <div class="name-cn">紫荧光笔</div>
+        <div class="name-en">Violet Marker</div>
+        <div class="keywords">🏷 lavender, highlighter, friendly modern</div>
+        <div class="best">🎯 Friendly modern boards, highlighter-style explainers, team docs</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFAFF"></span><span class="swatch" style="background:#B088D0"></span><span class="swatch" style="background:#9070B8"></span></div>
+        <img class="preview" src="pngs/violet-marker.png" alt="紫荧光笔" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#25</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">极简瑞士风</div>
+        <div class="name-en">Minimal Swiss</div>
+        <div class="keywords">🏷 Clean, simple, spacious, functional, white space, grid-based</div>
+        <div class="best">🎯 Enterprise apps, dashboards, documentation, SaaS platforms, professional tools</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#1A1A1A"></span><span class="swatch" style="background:#3B6FA0"></span></div>
+        <img class="preview" src="pngs/minimal-swiss.png" alt="极简瑞士风" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#26</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">新拟态</div>
+        <div class="name-en">Neumorphism</div>
+        <div class="keywords">🏷 Soft UI, embossed, debossed, convex, subtle depth, monochromatic</div>
+        <div class="best">🎯 Health/wellness apps, meditation platforms, fitness trackers, minimal UIs</div>
+        <div class="swatches"><span class="swatch" style="background:#E8ECF1"></span><span class="swatch" style="background:#EEF1F5"></span><span class="swatch" style="background:#7B9CB5"></span></div>
+        <img class="preview" src="pngs/neumorphism.png" alt="新拟态" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#27</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">玻璃态</div>
+        <div class="name-en">Glassmorphism</div>
+        <div class="keywords">🏷 Frosted glass, transparent, blurred, layered, vibrant, depth</div>
+        <div class="best">🎯 Modern SaaS, financial dashboards, high-end corporate, lifestyle apps</div>
+        <div class="swatches"><span class="swatch" style="background:#1A0533"></span><span class="swatch" style="background:#3B1F8C"></span><span class="swatch" style="background:#C84B8A"></span><span class="swatch" style="background:#F0985C"></span></div>
+        <img class="preview" src="pngs/glassmorphism.png" alt="玻璃态" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#28</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">野兽派</div>
+        <div class="name-en">Brutalism</div>
+        <div class="keywords">🏷 Raw, unpolished, stark, high contrast, anti-design</div>
+        <div class="best">🎯 Design portfolios, artistic projects, counter-culture brands, editorial</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#FF0000"></span><span class="swatch" style="background:#0000FF"></span><span class="swatch" style="background:#FFFF00"></span></div>
+        <img class="preview" src="pngs/brutalism.png" alt="野兽派" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#29</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">活力色块</div>
+        <div class="name-en">Vibrant Block</div>
+        <div class="keywords">🏷 Bold, energetic, playful, block layout, geometric, duotone</div>
+        <div class="best">🎯 Startups, creative agencies, gaming, social media, youth-focused</div>
+        <div class="swatches"><span class="swatch" style="background:#FAFAFA"></span><span class="swatch" style="background:#FF1493"></span><span class="swatch" style="background:#00E5FF"></span><span class="swatch" style="background:#39FF14"></span></div>
+        <img class="preview" src="pngs/vibrant-block.png" alt="活力色块" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#30</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">OLED暗黑</div>
+        <div class="name-en">Dark OLED</div>
+        <div class="keywords">🏷 Dark theme, low light, high contrast, OLED, night mode</div>
+        <div class="best">🎯 Night-mode apps, coding platforms, entertainment, OLED devices</div>
+        <div class="swatches"><span class="swatch" style="background:#000000"></span><span class="swatch" style="background:#0D1117"></span><span class="swatch" style="background:#58A6FF"></span></div>
+        <img class="preview" src="pngs/dark-oled.png" alt="OLED暗黑" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#31</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">粘土风</div>
+        <div class="name-en">Claymorphism</div>
+        <div class="keywords">🏷 Soft 3D, chunky, playful, toy-like, bubbly, double shadows</div>
+        <div class="best">🎯 Educational apps, children apps, SaaS, fun-focused, onboarding, casual games</div>
+        <div class="swatches"><span class="swatch" style="background:#FFF8F0"></span><span class="swatch" style="background:#FDBCB4"></span><span class="swatch" style="background:#ADE8C8"></span><span class="swatch" style="background:#D8D0F0"></span></div>
+        <img class="preview" src="pngs/claymorphism.png" alt="粘土风" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#32</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">极光UI</div>
+        <div class="name-en">Aurora UI</div>
+        <div class="keywords">🏷 Vibrant gradients, smooth blend, luminous, atmospheric, abstract</div>
+        <div class="best">🎯 Modern SaaS, creative agencies, branding, music platforms, hero sections</div>
+        <div class="swatches"><span class="swatch" style="background:#0A0E27"></span><span class="swatch" style="background:#1A237E"></span><span class="swatch" style="background:#4A148C"></span><span class="swatch" style="background:#7C4DFF"></span></div>
+        <img class="preview" src="pngs/aurora-ui.png" alt="极光UI" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#33</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">复古未来</div>
+        <div class="name-en">Retro-Futurism</div>
+        <div class="keywords">🏷 Vintage sci-fi, 80s, neon glow, geometric, synthwave</div>
+        <div class="best">🎯 Gaming, entertainment, music platforms, tech brands, nostalgic</div>
+        <div class="swatches"><span class="swatch" style="background:#0A0A1A"></span><span class="swatch" style="background:#00E5FF"></span><span class="swatch" style="background:#FF2D95"></span><span class="swatch" style="background:#B44CFF"></span></div>
+        <img class="preview" src="pngs/retro-futurism.png" alt="复古未来" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#34</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">扁平设计</div>
+        <div class="name-en">Flat Design</div>
+        <div class="keywords">🏷 2D, minimalist, bold colors, no shadows, clean, icon-heavy</div>
+        <div class="best">🎯 Web apps, mobile apps, cross-platform, startup MVPs, SaaS</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#26A69A"></span><span class="swatch" style="background:#EF5350"></span><span class="swatch" style="background:#3F51B5"></span></div>
+        <img class="preview" src="pngs/flat-design.png" alt="扁平设计" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#35</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">新粗野</div>
+        <div class="name-en">Neubrutalism</div>
+        <div class="keywords">🏷 Bold borders, black outlines, primary colors, thick shadows, Gen Z</div>
+        <div class="best">🎯 Gen Z brands, startups, creative agencies, Figma-style, Notion-style</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFAF0"></span><span class="swatch" style="background:#FFEB3B"></span><span class="swatch" style="background:#FF5252"></span><span class="swatch" style="background:#2196F3"></span></div>
+        <img class="preview" src="pngs/neubrutalism.png" alt="新粗野" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#36</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">便当盒</div>
+        <div class="name-en">Bento Grid</div>
+        <div class="keywords">🏷 Modular cards, asymmetric grid, Apple-style, clean hierarchy</div>
+        <div class="best">🎯 Dashboards, product pages, portfolios, Apple-style marketing, feature showcases</div>
+        <div class="swatches"><span class="swatch" style="background:#F2F2F7"></span><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#0071E3"></span></div>
+        <img class="preview" src="pngs/bento-grid.png" alt="便当盒" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#37</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">千禧风</div>
+        <div class="name-en">Y2K Aesthetic</div>
+        <div class="keywords">🏷 Neon pink, chrome, metallic, bubblegum, iridescent, glossy, 2000s</div>
+        <div class="best">🎯 Fashion brands, music platforms, Gen Z brands, nostalgia marketing</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFAFF"></span><span class="swatch" style="background:#FF69B4"></span><span class="swatch" style="background:#00FFFF"></span><span class="swatch" style="background:#BF5FFF"></span></div>
+        <img class="preview" src="pngs/y2k-aesthetic.png" alt="千禧风" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#38</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">赛博朋克</div>
+        <div class="name-en">Cyberpunk UI</div>
+        <div class="keywords">🏷 Neon, dark mode, terminal, HUD, sci-fi, glitch, matrix, tech noir</div>
+        <div class="best">🎯 Gaming platforms, tech products, crypto apps, sci-fi applications</div>
+        <div class="swatches"><span class="swatch" style="background:#0D0D0D"></span><span class="swatch" style="background:#00FF41"></span><span class="swatch" style="background:#FF00FF"></span><span class="swatch" style="background:#00FFFF"></span></div>
+        <img class="preview" src="pngs/cyberpunk-ui.png" alt="赛博朋克" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#39</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">有机亲生命</div>
+        <div class="name-en">Organic Biophilic</div>
+        <div class="keywords">🏷 Nature, organic shapes, green, sustainable, rounded, wellness, earthy</div>
+        <div class="best">🎯 Wellness apps, sustainability brands, eco products, health apps, meditation</div>
+        <div class="swatches"><span class="swatch" style="background:#F5F0E8"></span><span class="swatch" style="background:#4A7C59"></span><span class="swatch" style="background:#7BA05B"></span><span class="swatch" style="background:#87CEEB"></span></div>
+        <img class="preview" src="pngs/organic-biophilic.png" alt="有机亲生命" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#40</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">AI原生</div>
+        <div class="name-en">AI-Native UI</div>
+        <div class="keywords">🏷 Chatbot, conversational, voice, assistant, agentic, ambient, streaming</div>
+        <div class="best">🎯 AI products, chatbots, voice assistants, copilots, AI-powered tools</div>
+        <div class="swatches"><span class="swatch" style="background:#FAFAFC"></span><span class="swatch" style="background:#6366F1"></span><span class="swatch" style="background:#10B981"></span><span class="swatch" style="background:#A5B4FC"></span></div>
+        <img class="preview" src="pngs/ai-native.png" alt="AI原生" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#41</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">孟菲斯</div>
+        <div class="name-en">Memphis Design</div>
+        <div class="keywords">🏷 80s, geometric, playful, postmodern, shapes, patterns, abstract, bold</div>
+        <div class="best">🎯 Creative agencies, music sites, youth brands, event promotion</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFAF8"></span><span class="swatch" style="background:#FF71CE"></span><span class="swatch" style="background:#FFCE5C"></span><span class="swatch" style="background:#86CCCA"></span><span class="swatch" style="background:#B967FF"></span></div>
+        <img class="preview" src="pngs/memphis-design.png" alt="孟菲斯" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#42</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">蒸汽波</div>
+        <div class="name-en">Vaporwave</div>
+        <div class="keywords">🏷 Synthwave, retro-futuristic, 80s-90s, neon, nostalgic, dreamy</div>
+        <div class="best">🎯 Music platforms, gaming, creative portfolios, tech startups, entertainment</div>
+        <div class="swatches"><span class="swatch" style="background:#0D0221"></span><span class="swatch" style="background:#FF71CE"></span><span class="swatch" style="background:#01CDFE"></span><span class="swatch" style="background:#05FFA1"></span></div>
+        <img class="preview" src="pngs/vaporwave.png" alt="蒸汽波" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#43</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">维度分层</div>
+        <div class="name-en">Dimensional Layering</div>
+        <div class="keywords">🏷 Depth, overlapping, z-index, layers, elevation, floating, spatial</div>
+        <div class="best">🎯 Dashboards, card layouts, modals, navigation, product showcases, SaaS</div>
+        <div class="swatches"><span class="swatch" style="background:#E8ECF2"></span><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#4361EE"></span></div>
+        <img class="preview" src="pngs/dimensional-layering.png" alt="维度分层" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#44</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">极致极简</div>
+        <div class="name-en">Exaggerated Minimalism</div>
+        <div class="keywords">🏷 Bold minimalism, oversized typography, high contrast, negative space</div>
+        <div class="best">🎯 Fashion, architecture, portfolios, agency landing pages, luxury brands</div>
+        <div class="swatches"><span class="swatch" style="background:#FFFFFF"></span><span class="swatch" style="background:#000000"></span><span class="swatch" style="background:#C41E3A"></span></div>
+        <img class="preview" src="pngs/exaggerated-minimalism.png" alt="极致极简" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#45</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">瑞士现代2.0</div>
+        <div class="name-en">Swiss Modernism 2.0</div>
+        <div class="keywords">🏷 Grid system, modular, asymmetric, international style, rational, clean</div>
+        <div class="best">🎯 Corporate sites, architecture, editorial, SaaS, museums, documentation</div>
+        <div class="swatches"><span class="swatch" style="background:#FAF8F5"></span><span class="swatch" style="background:#1A1A1A"></span><span class="swatch" style="background:#1B5E3B"></span></div>
+        <img class="preview" src="pngs/swiss-modernism.png" alt="瑞士现代2.0" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#46</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">HUD科幻</div>
+        <div class="name-en">HUD / Sci-Fi FUI</div>
+        <div class="keywords">🏷 Futuristic, technical, wireframe, neon, data, iron man, interface</div>
+        <div class="best">🎯 Sci-fi games, space tech, cybersecurity, movie props, immersive dashboards</div>
+        <div class="swatches"><span class="swatch" style="background:#020617"></span><span class="swatch" style="background:#00FFFF"></span><span class="swatch" style="background:#38BDF8"></span><span class="swatch" style="background:#FF3333"></span></div>
+        <img class="preview" src="pngs/hud-scifi.png" alt="HUD科幻" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#47</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">电子墨水</div>
+        <div class="name-en">E-Ink / Paper</div>
+        <div class="keywords">🏷 Paper-like, matte, high contrast, reading, calm, slow tech, monochrome</div>
+        <div class="best">🎯 Reading apps, digital newspapers, minimal journals, distraction-free writing</div>
+        <div class="swatches"><span class="swatch" style="background:#F5F0E8"></span><span class="swatch" style="background:#3B362F"></span><span class="swatch" style="background:#D8D2C8"></span></div>
+        <img class="preview" src="pngs/eink-paper.png" alt="电子墨水" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#48</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">编辑杂志</div>
+        <div class="name-en">Editorial Magazine</div>
+        <div class="keywords">🏷 Magazine layout, asymmetric grid, editorial typography, column layout</div>
+        <div class="best">🎯 News sites, blogs, magazines, editorial content, long-form articles</div>
+        <div class="swatches"><span class="swatch" style="background:#FCFAF7"></span><span class="swatch" style="background:#111111"></span><span class="swatch" style="background:#C7512E"></span></div>
+        <img class="preview" src="pngs/editorial-magazine.png" alt="编辑杂志" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#49</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">复古胶片</div>
+        <div class="name-en">Vintage Analog</div>
+        <div class="keywords">🏷 Film grain, Kodachrome, polaroid, analog warmth, faded colors, light leaks</div>
+        <div class="best">🎯 Photography portfolios, music/vinyl brands, vintage fashion, nostalgia</div>
+        <div class="swatches"><span class="swatch" style="background:#F8F0E0"></span><span class="swatch" style="background:#D4A574"></span><span class="swatch" style="background:#5B8A7A"></span><span class="swatch" style="background:#D4A0A0"></span></div>
+        <img class="preview" src="pngs/vintage-analog.png" alt="复古胶片" loading="lazy" />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-header">
+          <span class="num">#50</span>
+          <span class="type-tag">General</span>
+        </div>
+        <div class="name-cn">自然蒸馏</div>
+        <div class="name-en">Nature Distilled</div>
+        <div class="keywords">🏷 Muted earthy, terracotta, skin tones, wood, sand, organic, handmade</div>
+        <div class="best">🎯 Wellness brands, sustainable products, artisan goods, organic food, spa/beauty</div>
+        <div class="swatches"><span class="swatch" style="background:#FBF6F0"></span><span class="swatch" style="background:#C67B5C"></span><span class="swatch" style="background:#D4C4A8"></span><span class="swatch" style="background:#9BAF8A"></span></div>
+        <img class="preview" src="pngs/nature-distilled.png" alt="自然蒸馏" loading="lazy" />
+      </div>
+    </div>
+</div>
+</body>
+</html>
