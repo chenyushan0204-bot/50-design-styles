@@ -10,3 +10,5 @@ data/
 diagrams/
 *.png
 !assets/styles/*.png
+!pngs/*.png
+!examples/images/*.png
