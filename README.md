@@ -1,23 +1,23 @@
-#  Beautiful Feishu Whiteboard — 50 Styles
+#  Yushan · 飞书 CLI 画板
 
-50 种精心设计的飞书/Lark 画板配色风格，让 AI 帮你生成漂亮、可编辑的飞书画板。
+50 种配色风格 + 6 种内容版式，让 AI 帮你生成漂亮、可编辑的飞书画板。
 
 ##   Preview
 
-**[ 在线预览所有 50 种风格](https://chenyushan0204-bot.github.io/50-design-styles/)**
+**[ 在线预览所有 50 种风格](https://chenyushan0204-bot.github.io/feishu-whiteboard-styles/)**
 
 ##   Quick Install
 
 在安装了 Claude Code 的终端中执行：
 
 ```bash
-npx skills install chenyushan0204-bot/50-design-styles
+npx skills install chenyushan0204-bot/feishu-whiteboard-styles
 ```
 
 如果你的 Claude Code 不支持 `npx skills`，也可以手动克隆到 skills 目录：
 
 ```bash
-git clone https://github.com/chenyushan0204-bot/50-design-styles.git \
+git clone https://github.com/chenyushan0204-bot/feishu-whiteboard-styles.git \
   ~/.claude/skills/beautiful-feishu-whiteboard/
 ```
 
